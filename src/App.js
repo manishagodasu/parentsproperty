@@ -19,9 +19,9 @@ const App = () => {
         <BrowserRouter>
           <Nav />
           <Routes>
-            <Route path='/register' element={Register} />
-            <Route path='/login' element={Login} />
-            <Route path='/myprofile' element={Myprofile} />
+            <Route path='/register' element={<Register/>} />
+            <Route path='/login' element={<Login/>} />
+            <Route path='/myprofile' element={<Myprofile/>} />
           </Routes>
         </BrowserRouter>
       </store.Provider>
